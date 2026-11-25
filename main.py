@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from api.login import  auth_router, signup_router
+from api.login import  auth_router
+from api.register import signup_router
 from api import login
 app = FastAPI()
 
